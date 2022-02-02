@@ -1,0 +1,11 @@
+{
+  "name": "moodtracker_920",
+  "version": "1.0.0",
+  "description": "Tracks your mood, and archives it in a DB :) ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Hutchings",
+  "license": "ISC"
+}
