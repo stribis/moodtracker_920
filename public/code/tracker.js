@@ -11,10 +11,12 @@ async function fetchData() {
   data.forEach( entry => {
     const container = document.createElement('div')
 
+    console.log(entry)
+
     container.innerHTML = `
     <div>${entry.mood}</div>
     <div>${entry.aqi}</div>
-    <img src="${entry.image65}">
+    <img src="${entry.image64}">
     `
 
     document.querySelector('section').append(container)
